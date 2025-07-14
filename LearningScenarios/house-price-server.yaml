@@ -35,7 +35,7 @@ spec:
         maxReplicas: 3    # how much to scale
         containers:
         - name: kserve-container
-          image: "docker.io/steinhart/house-server:01"
+          image: "docker.io/steinhart/house-server:02"
           ports:
             - containerPort: 9001    # customizable port
               protocol: TCP
