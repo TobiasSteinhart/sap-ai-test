@@ -32,7 +32,7 @@ spec:
         imagePullSecrets:
           - name: credstutorialrepo   # your docker registry secret
         minReplicas: 1
-        maxReplicas: 3    # how much to scale
+        maxReplicas: 1    # how much to scale
         containers:
         - name: kserve-container
           image: "docker.io/steinhart/house-server:02"
